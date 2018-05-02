@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorGreenButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Thêm thực đơn"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/size10dp"
+        android:textSize="@dimen/size18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/size250dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edtTenMonAn"
+                android:background="@color/colorWhite"
+                android:layout_margin="@dimen/size10dp"
+                android:padding="@dimen/size10dp"
+                android:hint="Tên món ăn"
+                android:textColorHint="@color/colorGray"
+                android:textColor="@color/colorGray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtGiaTien"
+                android:background="@color/colorWhite"
+                android:layout_margin="@dimen/size10dp"
+                android:padding="@dimen/size10dp"
+                android:hint="Giá tiền"
+                android:numeric="integer"
+                android:textColor="@color/colorGray"
+                android:textColorHint="@color/colorGray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spnLoaiThucDon"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/size10dp"
+                    android:padding="@dimen/size10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+                <ImageButton
+                    android:id="@+id/imgThemLoaiThucDon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_input_add"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgHinhThucDon"
+            android:layout_weight="1"
+            android:src="@drawable/backgroundheader1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size150dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDongYThemMonAn"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/size10dp"
+            android:padding="@dimen/size10dp"
+            android:text="@string/dong_y"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnThoatThemMonAn"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/size10dp"
+            android:padding="@dimen/size10dp"
+            android:text="@string/thoat"
+            android:background="@color/backgroundToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

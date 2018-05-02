@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+
+    <string name="ten_dang_nhap">Username</string>
+    <string name="nhap_mat_khau">Password</string>
+    <string name="ngay_sinh">Ngày sinh</string>
+    <string name="chung_minh_nhan_dan">Chứng minh nhân dân</string>
+    <string name="dong_y">Đồng ý</string>
+    <string name="thoat">Thoát</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="chua_nhap_ten_dang_nhap">Chưa nhập tên đăng nhập</string>
+    <string name="chua_nhap_mat_khau">Chưa nhập mật khẩu</string>
+    <string name="them_thanh_cong">Thêm thành công</string>
+    <string name="them_that_bai">Thêm thất bại</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="thuc_don">Thực đơn</string>
+    <string name="thong_ke">Thống kê</string>
+    <string name="nhan_vien">Nhân viên</string>
+    <string name="cai_dat">Cài đặt</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="them_ban_an">Thêm bàn ăn</string>
+    <string name="ten_ban_an">Tên bàn ăn</string>
+    <string name="them_thuc_don">Thêm thực đơn</string>
+    <string name="ten_mon_an">Tên món ăn</string>
+    <string name="gia_tien">Giá tiền</string>
+    <string name="ban_an">Bàn ăn</string>
+    <string name="loai_thuc_don">Loại thực đơn</string>
+    <string name="ten_loai">Tên loại</string>
+    <string name="vui_long_nhap_du_lieu">Vui lòng nhập dữ liệu</string>
+    <string name="loi_them_mon_an">Vui lòng điền đầy đủ thông tin</string>
+    <string name="gia">Giá</string>
+    <string name="so_luong">Số lượng</string>
+    <string name="thanh_toan">Thanh toán</string>
+    <string name="tong_tien">Tổng tiền : </string>
+    <string name="thanh_toan_thanh_cong">Thanh toán thành công</string>
+    <string name="loi">Lỗi!</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="xoa_thanh_cong">Xóa thành công</string>
+    <string name="sua_thanh_cong">Sửa thành công</string>
+    <string name="them_nhan_vien">Thêm nhân viên</string>
+    <string name="cap_nhat_nhan_vien">Cập nhật nhân viên</string>
+</resources>

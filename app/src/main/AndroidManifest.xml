@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.congl.orderfood">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--thêm 1 Activity thì phải đăng ký-->
+        <activity android:name=".DangNhapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DangKyActivity">
+            <!---->
+        </activity>
+
+        <activity android:name=".TrangChuActivity">
+            <!---->
+        </activity>
+
+        <!--biến ThemBanAnActivity thành popup-->
+        <activity android:name=".ThemBanAnActivity"
+            android:theme="@style/PopupActivity">
+        </activity>
+
+        <activity android:name=".ThemThucDonActivity">
+            <!---->
+        </activity>
+
+        <activity android:name=".ThemLoaiThucDonActivity"
+            android:theme="@style/PopupActivity"
+            android:label="@string/loai_thuc_don">
+        </activity>
+
+        <activity android:name=".SoLuongActivity"
+            android:theme="@style/PopupActivity"
+            android:label="@string/so_luong">>
+        </activity>
+
+        <activity android:name=".ThanhToanActivity">
+            <!---->
+        </activity>
+
+        <activity android:name=".SuaBanAnActivity"
+            android:theme="@style/PopupActivity">
+        </activity>
+
+    </application>
+
+</manifest>
